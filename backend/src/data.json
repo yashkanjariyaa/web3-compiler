@@ -1,0 +1,66 @@
+[
+  {
+    "_id": { "$oid": "664602f4e80d25470c27991a" },
+    "question": "Simple Arithmetic Operation\n\nWrite a function/method that takes two integers as input and returns their sum. Ensure that your function handles integer overflow and underflow gracefully.",
+    "hash": "e70be2408cd85ac2dc5f7cec2c1fd927ee9e56447f51e14aa9f58338ff173577",
+    "difficulty": "easy",
+    "lang": "rust",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c27991b" },
+    "question": "Simple Arithmetic Operation\n\nWrite a function/method that takes two integers as input and returns their sum. Ensure that your function handles integer overflow and underflow gracefully.",
+    "hash": "8d04e2a39efa43ce881ce98c8500a6a05c845d3df4016f62d27678935a9cd79f",
+    "difficulty": "easy",
+    "lang": "sol",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c27991c" },
+    "question": "Basic Data Structure Implementation\n\nImplement a stack data structure with push and pop operations. Ensure that your implementation handles stack overflow and underflow scenarios appropriately.",
+    "hash": "cdc1bc268614e38a4f495e5a59eca720e213474e8dc326af7fee75af326ab86d",
+    "difficulty": "medium",
+    "lang": "rust",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c27991d" },
+    "question": "Basic Data Structure Implementation\n\nImplement a stack data structure with push and pop operations. Ensure that your implementation handles stack overflow and underflow scenarios appropriately.",
+    "hash": "631cf2f6525f048c7ff14347873846a666023f9245798964d5f1f32ce6f7bfbc",
+    "difficulty": "medium",
+    "lang": "sol",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c27991e" },
+    "question": "Searching Algorithm\n\nImplement a binary search algorithm to find the index of a given element in a sorted array. Ensure your implementation is both iterative and recursive, and analyze the time complexity of each approach.",
+    "hash": "2934ce5ea2e09db4c12edaa47cf1a95bed580d103bdea2b3dc7eb059598fc807",
+    "difficulty": "medium",
+    "lang": "rust",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c27991f" },
+    "question": "Searching Algorithm\n\nImplement a binary search algorithm to find the index of a given element in a sorted array. Ensure your implementation is both iterative and recursive, and analyze the time complexity of each approach.",
+    "hash": "31a13a5eecde6e75498899f2974a36fce3c09d93cbed49ba12ac2412a6617a7e",
+    "difficulty": "medium",
+    "lang": "sol",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c279920" },
+    "question": "Concurrency Control\n\nWrite a concurrent program that simulates a simple banking system with deposit and withdrawal operations. Ensure proper synchronization mechanisms are in place to avoid race conditions and maintain data integrity.",
+    "hash": "9beb6f263c0695104ba2f12cf8f7f9575fad977581813d3cc5fc784a921b62a0",
+    "difficulty": "hard",
+    "lang": "rust",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "664602f5e80d25470c279921" },
+    "question": "Concurrency Control\n\nWrite a concurrent program that simulates a simple banking system with deposit and withdrawal operations. Ensure proper synchronization mechanisms are in place to avoid race conditions and maintain data integrity.",
+    "hash": "29cfded86dd5673488496daf5fba0a8bd0f72096ce470c5a374d85e94c18fdaf",
+    "difficulty": "hard",
+    "lang": "sol",
+    "__v": 0
+  }
+]
