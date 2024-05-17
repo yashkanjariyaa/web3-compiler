@@ -1,0 +1,137 @@
+#home{
+  backdrop-filter: blur(10px);
+  padding-left: 10vw;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    font-size: 10vw;
+    align-items: center;
+    margin-left: 0vw;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 1vw;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vw;
+}
+.text {
+  text-align: left;
+  font-size: 6vw;
+  font-weight: 700;
+  line-height: 0.9;
+  padding: 1vw 1vw;
+  /* background-image: linear-gradient(
+    354deg,
+    rgb(235, 167, 201),
+    rgb(156, 177, 233)
+  ); */
+  background-clip: text;
+  color: white;
+}
+.name{
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    color: rgba(255, 255, 255, 0.514);
+}
+.lang-support {
+  font-size: 1.2vw;
+  padding: 0 0.5vw;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.39);
+}
+.lang {
+  font-size: 1vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rust,
+.sol {
+  padding: 0.5vw 1vw;
+  border-radius: 7px;
+  margin-right: 1vw;
+}
+.rust {
+  background-color: rgb(134, 31, 31);
+}
+.sol {
+  background-color: rgb(39, 39, 141);
+}
+.question-head {
+  font-size: 1vw;
+  align-items: left;
+  border-radius: 10px;
+  padding: 0.8vw;
+  margin: 0;
+  background-color: rgb(41, 78, 179);
+}
+.about-section{
+    width: 70vw;
+    text-align: left;
+    margin: 0 1vw;
+}
+.paragraph-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.616);
+}
+.paragraph-container p{
+    margin-right: 1vw;
+}
+.home-container ul {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  text-align: left;
+  padding: 0;
+  margin: 0.2vw 0;
+}
+.home-container ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70vw;
+  list-style: none;
+  font-size: 1vw;
+  color: white;
+  margin: 0.2vw 0;
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 0.5vw;
+}
+.home-container ul li .index {
+  padding: 1vw;
+}
+.home-container ul li .difficulty {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 1vw;
+  font-weight: 600;
+}
+.home-container ul li .link {
+  text-decoration: none;
+  width: 80vw;
+}
+.home-container ul li .link:hover{
+    text-decoration: underline;
+}
+.link:visited {
+  color: inherit;
+  text-decoration: none;
+}
