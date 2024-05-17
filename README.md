@@ -1,4 +1,4 @@
-# Web3 Compiler
+# Web3 Compiler - Solidity + Rust
 
 ## Description:
 Web3 Compiler is a web-based compiler supporting two languages - Solidity and Rust. It provides an environment for developers to write, compile, and test their Solidity and Rust code directly in the browser. Additionally, it contains sample questions to solve, helping developers enhance their skills in these languages.
