@@ -1,4 +1,3 @@
-```markdown
 # Web3 Compiler
 
 ## Description:
@@ -102,6 +101,5 @@ cd web3-compiler-rust
 To run the project, make sure to create and configure the necessary environment variables. You can find an example `.env` file in the repository.
 
 That's it! You now have a setup guide for both frontend and backend development for Web3 Compiler, along with Rust installation via Rustup. Happy coding!
-```
 
 Make sure to include the `data.json` file in your repository for users to reference.
