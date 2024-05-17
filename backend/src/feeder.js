@@ -4,7 +4,7 @@ const path = require("path");
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 const CompiledCode = require("./model/compiledCodes");
 
-const jsonData = JSON.parse(fs.readFileSync("data.json", "utf8"));
+const jsonData = JSON.parse(fs.readFileSync("../../data.json", "utf8"));
 async function insertData() {
   try {
     await mongoose.connect(process.env.MONGO_URI);
